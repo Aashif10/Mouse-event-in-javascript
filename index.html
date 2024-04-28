@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #div{
+        cursor: pointer;
+    }
+</style>
+<body>
+     <!-- There are ways to add event in our html page..... -->
+    <!-- 1. Inside HTML -->
+    <div id="div" onclick="fun()">Hello Developers..</div>
+            <!--dblclick()
+                mousemove
+                mouseout
+                contextmenu -> Right click
+                mouseover                 -->
+<script>
+
+let element=document.getElementById("div");
+function fun(){
+    element.style.backgroundColor="purple";
+    element.style.width="200px";
+   element.style.height="200px";
+   element.style.textAlign="center";
+   element.style.display="flex"
+   element.style.justifyContent="center";
+   element.style.alignItems="center";
+   element.style.fontSize='20px';
+   element.style.cursor="pointer";
+
+}
+
+
+</script>
+
+
+</body>
+</html>
